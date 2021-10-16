@@ -100,6 +100,7 @@ if (WinActive("ahk_exe HmFilerClassic.exe")){
 	 Send,{AppsKey}{l}
 	return
 }else {
+	Send,+{e}
 	return
 }
 
@@ -108,5 +109,6 @@ if (WinActive("ahk_exe HmFilerClassic.exe")){
 	 Send,{AppsKey}{t}
 	return
 }else {
+	Send,+{r}
 	return
 }
